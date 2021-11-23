@@ -66,4 +66,7 @@ function changeColor() {
     root.style.setProperty("--kprimary4", '#808080');
     state++;
   }
+  else {
+    window.location.reload();
+  }
 }
